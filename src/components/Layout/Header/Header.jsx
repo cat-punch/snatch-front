@@ -118,10 +118,6 @@ const Header = () => {
         </Toolbar>
       </AppBar>
 
-      {/* 선택된 탭에 따른 페이지를 렌더링 */}
-      <div>
-        {renderContent()}
-      </div>
     </div>
   );
 };
