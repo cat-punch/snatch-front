@@ -85,7 +85,7 @@ const Header = () => {
             <StyledTab label="Monitor" component={Link} to="/monitor" />
           </StyledTabs>
 
-          <div style={{ marginLeft: 'auto', marginTop: '20px' }}>
+          <div style={{ marginLeft: 'auto', marginTop: '20px', marginRight: '2%' }}>
             <Button
               sx={{
                 backgroundColor: '#FFFFFF',
