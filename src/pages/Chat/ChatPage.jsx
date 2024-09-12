@@ -67,7 +67,7 @@ const ChatPage = () => {
         }}
       >
         {/* <h2>대화 {id}</h2> */}
-        <h2>대화 11</h2>
+        <h2>대화 10</h2>
         {chatHistory.map((chat, index) =>
           chat.type === 'question' ? (
             <QuestionChat key={index} question={chat.text} />

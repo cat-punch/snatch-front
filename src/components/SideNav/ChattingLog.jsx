@@ -20,9 +20,9 @@ const ChattingLog = () => {
   const handleNewChat = () => {
     // chatId 11로 된 새로운 객체 생성
     const newChat = {
-      chatId: 11,
+      chatId: 10,
       timestamp: new Date().toISOString(), // 현재 시간으로 timestamp 설정
-      title: '대화 11',
+      title: '대화 10',
       contents: '',
     };
 
@@ -33,7 +33,7 @@ const ChattingLog = () => {
   return (
     <Box className="flex flex-col flex-1 w-[70%] h-full">
       <div className="flex justify-end h-[10%] items-center">
-        <IconButton className="w-[30px] h-[30px] ml-auto" onClick={handleNewChat} component={Link} to="/chatpage/11">
+        <IconButton className="w-[30px] h-[30px] ml-auto" onClick={handleNewChat} component={Link} to="/chatpage/10">
           <EditNoteOutlinedIcon />
         </IconButton>
       </div>
